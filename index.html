@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معلومات الشراء</title>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            direction: rtl;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 700px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: #ff5722;
+            font-weight: bold;
+        }
+        .info {
+            margin-bottom: 30px;
+            font-size: 26px;
+            font-weight: bold;
+            color: #333;
+        }
+        .info span {
+            color: #ff5722;
+        }
+        .footer-image {
+            width: 200px;
+            margin-top: 40px;
+        }
+        .footer-image img {
+            width: 120%;
+            height: auto;
+        }
+         .back-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-family: 'Cairo', sans-serif;
+            cursor: pointer;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">معلومات الشراء</div>
+        <div class="info"><span>سعر الصرف:</span> 1380</div>
+        <div class="info"><span>الشحن:</span> مجاني</div>
+        <div class="info"><span>توصيل محافظة ذي قار:</span> 2,500 </div>
+        <div class="info"><span> توصيل جميع المحافظات:</span> 4,000 </div>
+        <div class="info"><span>مدة الشحن:</span> 15-20 يوماً</div>
+        <div class="footer-image">
+            <img src="https://cdn-icons-png.flaticon.com/256/9473/9473009.png" alt="رمز التسوق">
+        </div>
+    </div>
+    <button class="back-button" onclick="window.location.href='index.html';">عودة</button>
+</body>
+</html>
